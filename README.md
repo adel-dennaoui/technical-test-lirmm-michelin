@@ -8,9 +8,8 @@ change 'Enabled: [CoM]' (or whatever controller inside) to 'Enabled: [AdelDennao
 run: roscore <br />
 go to another terminal and run: roslaunch mc_rtc_ticker display.launch (rviz will open with nothing inside) <br />
 go to a third terminal and run: <br />
-cd <br />
-cmake ../ -DCMAKE_BUILD_TYPE=RelWithDebInfo <br />
 cd technical-test-lirmm-michelin/build <br />
+cmake ../ -DCMAKE_BUILD_TYPE=RelWithDebInfo <br />
 make <br />
 sudo make install (put the sudo password afterwards) <br />
 mc_rtc_ticker (you should be able to see the robot executing the task in rviz) <br />
