@@ -13,7 +13,7 @@ cmake ../ -DCMAKE_BUILD_TYPE=RelWithDebInfo <br />
 cd technical-test-lirmm-michelin/build <br />
 make <br />
 sudo make install (put the sudo password afterwards) <br />
-mc_rtc_ticker (you should be able to see the robot executing the task) <br />
+mc_rtc_ticker (you should be able to see the robot executing the task in rviz) <br />
 <br /> 
 Brief description: <br />
 the moving arms are done through using the SurfaceTransformTask of the left and right wrists <br />
