@@ -5,7 +5,7 @@ Steps: <br />
 clone this repo in '/home/$HOME_FOLER' <br />
 sudo gedit /usr/etc/mc_rtc.yaml (to change the configuration file 'mc_rtc.yaml') <br />
 change 'Enabled: [CoM]' (or whatever controller inside) to 'Enabled: [AdelDennaouiController]' <br />
-roscore <br />
+run: roscore <br />
 go to another terminal and run: roslaunch mc_rtc_ticker display.launch (rviz will open with nothing inside) <br />
 go to a third terminal and run: <br />
 cd <br />
