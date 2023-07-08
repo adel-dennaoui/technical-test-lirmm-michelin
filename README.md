@@ -16,5 +16,5 @@ mc_rtc_ticker (you should be able to see the robot executing the task in rviz) <
 <br /> 
 Brief description: <br />
 the moving arms are done through using the SurfaceTransformTask of the left and right wrists <br />
-the looking task is done using MetaTaskLoader of YAML files in technical-test-lirmm-michelin/src containing LookAtFrameTask tasks that make the dcamera frame look at l_wrist and r_wrist frames <br />
-parameters of stiffness, errors thresholds, weight (or anything else I forgot about) are inspired by the numbers seen in the tutorials <br />
+the looking task is done using MetaTaskLoader of YAML files in technical-test-lirmm-michelin/src containing LookAtFrameTask functions that make the dcamera frame look at l_wrist and r_wrist frames <br />
+parameters of stiffness, errors thresholds, weight (or anything else I forgot to mention) are inspired by the numbers seen in the tutorials <br />
