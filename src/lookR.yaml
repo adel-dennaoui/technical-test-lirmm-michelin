@@ -1,0 +1,6 @@
+type: lookAtSurface
+frame: dcamera
+frameVector: [0.0, 0.0, 1.0]
+target:
+  robot: jvrc1
+  frame: r_wrist

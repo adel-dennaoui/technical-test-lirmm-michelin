@@ -1,0 +1,2 @@
+/usr/lib/x86_64-linux-gnu/mc_controller/etc/AdelDennaouiController.yaml
+/usr/lib/x86_64-linux-gnu/mc_controller/AdelDennaouiController.so
